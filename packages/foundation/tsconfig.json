@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "outDir": "lib",
+      
+      "allowSyntheticDefaultImports": true,
+      "target": "esnext",
+      "declaration": true,
+      "moduleResolution": "node"
+    },
+    "include": ["src"],
+    "exclude": ["node_modules", "lib"]
+  }
+  

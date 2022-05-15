@@ -1,0 +1,12 @@
+@import "foundation/all";
+
+.dse-text {
+    margin: 0;
+}
+
+@each $size, $value in $spacing {
+    .dse-text-#{$size} {
+        font-size: $value;
+    }
+    
+}
