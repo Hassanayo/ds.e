@@ -11,7 +11,7 @@ on:
 jobs: 
   builds:
     runs-on: ubuntu-latest
-    stepsL
+    steps:
     - uses: sctions/checkout@v2
 
     - name: install dependencies
