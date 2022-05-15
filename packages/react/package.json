@@ -37,7 +37,8 @@
     "test": "jest --verbose",
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "chromatic --project-token=d5b5b973540b"
   },
   "dependencies": {
     "@storybook/addon-storysource": "^6.4.22"
