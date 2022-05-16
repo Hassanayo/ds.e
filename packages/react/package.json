@@ -33,7 +33,8 @@
     "react": "^18.1.0",
     "rollup": "^2.72.1",
     "rollup-plugin-typescript2": "^0.31.2",
-    "typescript": "^4.6.4"
+    "typescript": "^4.6.4",
+    "type": "module"
   },
   "scripts": {
     "build": "rollup -c",
