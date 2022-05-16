@@ -33,8 +33,7 @@
     "react": "^18.1.0",
     "rollup": "^2.72.1",
     "rollup-plugin-typescript2": "^0.31.2",
-    "typescript": "^4.6.4",
-    "type": "module"
+    "typescript": "^4.6.4"
   },
   "scripts": {
     "build": "rollup -c",
@@ -43,7 +42,7 @@
     "test:watch": "yarn test --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "chromatic --project-token=d5b5b973540b"
+    "test:chromatic": "chromatic --project-token=\"$CHROMATIC_PROJECT_TOKEN\""
   },
   "dependencies": {
     "@storybook/addon-storysource": "^6.4.22"
